@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Eco-Friendly Marketplace</title>
+</head>
+<body>
+
+    <header>
+        <h1>Eco-Friendly Product Marketplace</h1>
+        <p>Your one-stop shop for sustainable and eco-friendly products!</p>
+    </header>
+
+    <main>
+        <section class="about">
+            <h2>About Our App</h2>
+            <p>Welcome to our Eco-Friendly Product Marketplace! We are dedicated to promoting sustainable living by connecting buyers with eco-friendly products and sellers committed to environmental responsibility.</p>
+            <p>Explore a wide range of products, learn about their sustainability features, and contribute to a greener future. Join our community today!</p>
+        </section>
+
+        <section class="signup">
+            <h2>Sign Up</h2>
+            <form action="signup_process.php" method="post">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+            
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            
+                <label for="userType">I am a:</label>
+                <select id="userType" name="userType" required>
+                    <option value="buyer">Buyer</option>
+                    <option value="seller">Seller</option>
+                </select>
+            
+                <button type="submit">Sign Up</button>
+            </form>            
+            <p>Already have an account? <a href="login.html">Log in here</a>.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Eco-Friendly Marketplace</p>
+    </footer>
+
+</body>
+</html>

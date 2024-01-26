@@ -1,0 +1,71 @@
+/* Reset some default styles for better consistency */
+body, h1, h2, p, form {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4; /* Light gray background */
+    color: #333; /* Dark text color */
+}
+
+header {
+    background-color: #388e3c; /* Green header background */
+    color: #fff; /* White text color */
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.about, .signup {
+    background-color: #fff; /* White background for sections */
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.about h2, .signup h2 {
+    color: #388e3c; /* Green heading color */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+}
+
+input, select, button {
+    margin-bottom: 16px;
+    padding: 10px;
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 4px;
+}
+
+button {
+    background-color: #388e3c; /* Green button background */
+    color: #fff; /* White text color */
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2e7230; /* Darker green on hover */
+}
+
+footer {
+    background-color: #388e3c; /* Green footer background */
+    color: #fff; /* White text color */
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

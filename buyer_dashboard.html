@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Buyer Dashboard - Eco-Friendly Marketplace</title>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to Your Buyer Dashboard</h1>
+        <p>Discover and shop for eco-friendly products that align with your values!</p>
+    </header>
+
+    <main>
+        <section class="product-discovery">
+            <h2>Discover Eco-Friendly Products</h2>
+            <!-- Example product with contact details -->
+            <div class="product">
+                <h3>Product Name 1</h3>
+                <p>Description: Lorem ipsum dolor sit amet...</p>
+                <p>Seller: EcoSeller123</p>
+                <p>Contact Seller: seller123@example.com | +123456789</p>
+                <button onclick="contactSeller('EcoSeller123', 'seller123@example.com', '+123456789')">Contact Seller</button>
+            </div>
+
+            <!-- Add more products dynamically based on the marketplace -->
+        </section>
+
+        <section class="purchase-history">
+            <h2>Purchase History</h2>
+            <!-- Add purchase history and order tracking features here -->
+            <ul>
+                <li>Order 1</li>
+                <li>Order 2</li>
+                <li>Order 3</li>
+                <!-- Display recent purchases and order details -->
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Eco-Friendly Marketplace</p>
+    </footer>
+
+    <script>
+        function contactSeller(sellerName, sellerEmail, sellerPhone) {
+            // Implement your logic to handle the contact action
+            alert("Contacting seller: " + sellerName + "\nPhone: " + sellerPhone);
+        }
+    </script>
+
+</body>
+</html>
